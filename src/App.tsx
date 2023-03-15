@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/Button";
+import Container from "./components/Container";
 import Greet from "./components/Greet";
 import Heading from "./components/Heading";
 import Oscer from "./components/Oscer";
@@ -19,7 +20,7 @@ function App() {
   ];
   return (
     <div className="App">
-      <Status status="error" />
+      {/* <Status status="error" />
       <Heading>Placeholder text</Heading>
       <Oscer>
         <Heading>Oscer goes to Leonardo Dicpario!</Heading>
@@ -30,6 +31,7 @@ function App() {
           console.log("Button click", event, id);
         }}
       />
+      <Container styles={{ border: "1px solid black", padding: "1rem" }} /> */}
     </div>
   );
 }
